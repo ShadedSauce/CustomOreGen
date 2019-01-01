@@ -1,4 +1,4 @@
-package xyz.spaceio.customoregen;
+package spaceio.customoregen;
 
 import java.io.IOException;
 import org.bukkit.command.Command;

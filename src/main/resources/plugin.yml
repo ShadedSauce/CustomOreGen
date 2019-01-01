@@ -2,8 +2,9 @@ name: CustomOreGen
 version: ${project.version}
 description: Controls the Ore-Generator
 author: Linus122
+depend: []
 softdepend: [ASkyBlock, AcidIsland, uSkyBlock, SkyBlock, BentoBox, IslandWorld]
-main: xyz.spaceio.customoregen.CustomOreGen
+main: spaceio.customoregen.CustomOreGen
 api-version: 1.13
 commands:
    customoregen:

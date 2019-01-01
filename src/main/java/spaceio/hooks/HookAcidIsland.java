@@ -1,4 +1,4 @@
-package xyz.spaceio.hooks;
+package spaceio.hooks;
 
 import java.util.Optional;
 import java.util.UUID;

@@ -1,4 +1,4 @@
-package xyz.spaceio.customoregen;
+package spaceio.customoregen;
 
 public class GeneratorItem {
 

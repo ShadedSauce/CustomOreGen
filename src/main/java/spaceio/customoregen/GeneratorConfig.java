@@ -1,4 +1,4 @@
-package xyz.spaceio.customoregen;
+package spaceio.customoregen;
 
 import java.util.ArrayList;
 import java.util.List;

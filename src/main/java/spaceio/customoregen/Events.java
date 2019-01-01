@@ -1,4 +1,4 @@
-package xyz.spaceio.customoregen;
+package spaceio.customoregen;
 
 import java.util.Arrays;
 import java.util.Random;

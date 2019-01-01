@@ -1,4 +1,4 @@
-package xyz.spaceio.config;
+package spaceio.config;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -8,9 +8,9 @@ import java.util.ArrayList;
 
 import org.bukkit.Material;
 
-import xyz.spaceio.customoregen.CustomOreGen;
-import xyz.spaceio.customoregen.GeneratorConfig;
-import xyz.spaceio.customoregen.GeneratorItem;
+import spaceio.customoregen.CustomOreGen;
+import spaceio.customoregen.GeneratorConfig;
+import spaceio.customoregen.GeneratorItem;
 
 public class ConfigHandler {
 

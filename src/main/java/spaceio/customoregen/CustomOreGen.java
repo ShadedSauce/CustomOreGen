@@ -1,4 +1,4 @@
-package xyz.spaceio.customoregen;
+package spaceio.customoregen;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -27,15 +27,14 @@ import org.bukkit.plugin.java.JavaPlugin;
 import com.google.gson.reflect.TypeToken;
 
 import de.Linus122.SpaceIOMetrics.Metrics;
-import xyz.spaceio.config.ConfigHandler;
-import xyz.spaceio.config.JSONConfig;
-import xyz.spaceio.hooks.HookASkyBlock;
-import xyz.spaceio.hooks.HookAcidIsland;
-import xyz.spaceio.hooks.HookBentoBox;
-import xyz.spaceio.hooks.HookPlotSquared;
-import xyz.spaceio.hooks.HookSkyblockEarth;
-import xyz.spaceio.hooks.SkyblockAPIHook;
-import xyz.spaceio.hooks.HookuSkyBlock;
+import spaceio.config.ConfigHandler;
+import spaceio.config.JSONConfig;
+import spaceio.hooks.HookASkyBlock;
+import spaceio.hooks.HookAcidIsland;
+import spaceio.hooks.HookBentoBox;
+import spaceio.hooks.HookSkyblockEarth;
+import spaceio.hooks.SkyblockAPIHook;
+import spaceio.hooks.HookuSkyBlock;
 
 public class CustomOreGen extends JavaPlugin {
 
@@ -132,9 +131,6 @@ public class CustomOreGen extends JavaPlugin {
 		} else if (Bukkit.getServer().getPluginManager().isPluginEnabled("SkyBlock")) {
 			skyblockAPI = new HookSkyblockEarth();
 			sendConsole("&aUsing SkyblockEarth as SkyBlock-Plugin");
-		} else if (Bukkit.getServer().getPluginManager().isPluginEnabled("PlotSquared")) {
-			skyblockAPI = new HookPlotSquared();
-			sendConsole("&aUsing PlotSquared as SkyBlock-Plugin");
 		}
 	}
 

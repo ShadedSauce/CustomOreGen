@@ -1,4 +1,4 @@
-package xyz.spaceio.hooks;
+package spaceio.hooks;
 
 import java.io.File;
 import java.lang.reflect.Field;

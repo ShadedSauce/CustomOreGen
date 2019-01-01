@@ -1,4 +1,4 @@
-package xyz.spaceio.hooks;
+package spaceio.hooks;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

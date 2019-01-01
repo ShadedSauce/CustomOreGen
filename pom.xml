@@ -109,6 +109,13 @@
 			<artifactId>SpaceIOMetrics</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.solumic.solumicore</groupId>
+			<artifactId>bukkit</artifactId>
+			<version>1.0-SNAPSHOT</version>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	<build>
 		<!-- Uses the properties in this file for plugin.yml and config.yml -->
@@ -161,6 +168,16 @@
 				<configuration>
 					<outputDirectory>${dir}</outputDirectory>
 					<finalName>${project.name}</finalName>
+				</configuration>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
 				</configuration>
 			</plugin>
 		</plugins>
